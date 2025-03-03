@@ -1,7 +1,7 @@
 import { memo, FC, useState } from "react";
 
 import { PrimaryButton } from "../atoms/button/PrimaryButton";
-import { useAuth } from "../../fooks/useAuth";
+import { useAuth } from "../../hooks/useAuth";
 
 export const Login: FC = memo(() => {
     const [userId, setUserId] = useState("");
